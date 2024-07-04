@@ -23,6 +23,9 @@ BigBase V2 but V1 list and click ui
 - Updated Pattern
 - Updated Hooks
 
+# Important
+Build in release
+
 # Credit
 - Updated And Created By XIFI
 - Pockaking Original Repository -> [Repository](https://github.com/Pocakking/BigBaseV2)
