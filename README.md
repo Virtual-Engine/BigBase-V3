@@ -31,4 +31,4 @@ BigBase V2 but V1 list and click ui
 
 ![](assets/console.png)
 ![](assets/list-ui.png)
-![](assets/click-ui.png)
+![](assets/clicks-ui.png)
