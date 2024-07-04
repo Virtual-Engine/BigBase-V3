@@ -60,16 +60,19 @@ BOOL APIENTRY DllMain(HMODULE hmod, DWORD reason, PVOID)
 				}
 				g_Settings.Initialize();
 				LOG(INFO) << "Settings Loaded.";
-				g_UiManager = std::make_unique<UserInterface::UIManager>();
-				g_MainScript = std::make_shared<MainScript>();
-				g_script_mgr.add_script(std::make_unique<script>(&MainScript::Tick));
+LOG(INFO) << "UI Manager Loading...";
+g_UiManager = std::make_unique<UserInterface::UIManager>();
+g_MainScript = std::make_shared<MainScript>();
+g_script_mgr.add_script(std::make_unique<script>(&MainScript::Tick));
+LOG(INFO) << "UI Manager Loaded";
 
-				g_Discord->Init();
+g_Discord->Init();
 
-				while (g_running)
-				{
-					std::this_thread::sleep_for(200ms);
-				}
+while (g_running)
+{
+				if (GetAsyncKeyState(VK_END)) g_running = false;
+				std::this_thread::sleep_for(200ms);
+}
 
 				g_hooking->disable();
 				LOG(INFO) << "Hooking disabled.";
