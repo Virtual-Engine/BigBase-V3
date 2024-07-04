@@ -7,6 +7,7 @@ BigBase V2 but V1 list and click ui
 - Script Manager
 - Native UI
 - List & Click
+- Smooth Scroll
 - Hooking Deotur, VMT
 - Script
 - Logger
