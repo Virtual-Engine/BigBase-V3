@@ -29,5 +29,6 @@ BigBase V2 but V1 list and click ui
 
 # Screen Shot
 
-![](console.png)
-![](menu.png)
+![](assets/console.png)
+![](assets/list-ui.png)
+![](assets/click-ui.png)
