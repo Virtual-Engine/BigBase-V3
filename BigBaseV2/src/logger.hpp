@@ -80,7 +80,7 @@ namespace big
 
 			if ((m_console_handle = GetStdHandle(STD_OUTPUT_HANDLE)) != nullptr)
 			{
-				SetConsoleTitleA("BigBaseV2");
+				SetConsoleTitleA("BigBaseV3");
 				SetConsoleOutputCP(CP_UTF8);
 
 				m_console_out.open("CONOUT$", std::ios_base::out | std::ios_base::app);
